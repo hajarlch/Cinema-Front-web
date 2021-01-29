@@ -18,7 +18,7 @@ export class CinemaComponent implements OnInit {
   public currentCinema;
   public salles: any;
  public currentProjection: any;
-  private selectedTickets: any;
+  public selectedTickets: any;
   constructor(public cinemaService:CinemaService) { }
 
   ngOnInit() {
